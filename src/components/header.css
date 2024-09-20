@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d7dde9;
+}
+
+header h1 {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+header p {
+  color: rgba(0, 0, 0, 0.5411764706);
+} /*# sourceMappingURL=header.css.map */
