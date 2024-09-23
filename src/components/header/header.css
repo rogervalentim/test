@@ -2,6 +2,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1.5rem;
   border-bottom: 1px solid #d7dde9;
 }
 
@@ -12,4 +13,15 @@ header h1 {
 
 header p {
   color: rgba(0, 0, 0, 0.5411764706);
-} /*# sourceMappingURL=header.css.map */
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    flex-direction: column;
+    align-items: start;
+  }
+  header h2,
+  p {
+    margin-top: 0.5rem;
+  }
+}/*# sourceMappingURL=header.css.map */
