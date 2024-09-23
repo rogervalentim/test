@@ -1,6 +1,5 @@
 .modal {
   z-index: 1000;
-  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -95,9 +94,11 @@
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     height: 100vh;
+    padding-top: 1.5rem;
   }
   .modal-container {
     margin-top: 1.5rem;
+    margin-bottom: 0;
   }
   .buttons-container {
     flex-direction: column-reverse;

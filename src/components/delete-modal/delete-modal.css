@@ -105,9 +105,11 @@
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     height: 100vh;
+    padding-top: 1.5rem;
   }
   .modal-container {
     margin-top: 1.5rem;
+    margin-bottom: 0;
   }
   .buttons-container {
     flex-direction: column-reverse;
