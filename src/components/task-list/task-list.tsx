@@ -27,12 +27,16 @@ export function TaskList({
 
   return (
     <div className="tasks-container">
-      {tasks.length > 0 &&
-        tasks.map((task, index) => (
-          <>
-            <div className="tasks-text-pending">
-              <p>Suas tarefas de hoje</p>
-            </div>
+      <>
+        <div className="tasks-text-pending">
+          <p>
+            {tasks.length === 0
+              ? "nenhuma tarefa nova."
+              : "Suas tarefas de hoje"}
+          </p>
+        </div>
+        {tasks.length > 0 &&
+          tasks.map((task, index) => (
             <div key={index} className="input">
               <div className="checkbox">
                 <input
@@ -55,8 +59,8 @@ export function TaskList({
                 />
               </button>
             </div>
-          </>
-        ))}
+          ))}
+      </>
 
       {completedTasks.length > 0 && (
         <div>
