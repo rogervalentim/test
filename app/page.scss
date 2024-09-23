@@ -1,0 +1,20 @@
+.container-header {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+.container-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30.938rem;
+  padding-right: 30.938rem;
+}
+
+@media screen and (max-width: 767px) {
+  .container-header,
+  .container-form {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
